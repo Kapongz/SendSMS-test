@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jEIcInlRNuzSULt8Go9IBc7mhVc4Cp6Y8cEExGDIUXA=",
+  "Source": "TestSendSMS",
+  "BasePath": "_content/TestSendSMS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
