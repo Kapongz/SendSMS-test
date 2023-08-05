@@ -24,7 +24,7 @@ namespace TestSendSMS.Controllers
 
                 var obj = new
                 {
-                    app_id = AppId,
+                    app_id = "f0d55772-c229-4969-aa72-d51f91379e13",
                     headings = new { en = "Web Push Notification Title" }, //this value can be change as per need, can be a value from db
                     contents = new { en = "Here it goes push notification content" }, //this value can be change as per need, can be a value from db
                     included_segments = new string[] { "All" },
@@ -51,7 +51,7 @@ namespace TestSendSMS.Controllers
             {
 
             }
-            //return View("~/views/home/index.cshtml");
+            return RedirectToAction("Index");
         }
     }
 }
